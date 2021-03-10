@@ -1,0 +1,68 @@
+   15  apt install git-all
+   16  mkdir gitfol
+   17  cd gitfol/
+   18  vim f1.txt
+   19  apt install vim
+   20  vim f1.txt
+   21  git add .
+   22  git init
+   23  git add .
+   24  git commit -m "First commit"
+   25  git config --global user.email "akash@example.com"
+   26  git config --global user.name "akash"
+   27  git commit -m "First commit"
+   28  git log
+   29  vim f1.t
+   30  ls
+   31  vim f1.txt 
+   32  git add .
+   33  git commit -m "Second commit"
+   34  git log
+   35  vim f1.txt 
+   36  git commit -m "Another line addes" 
+   37  git add .
+   38  git commit -m "Another line added" 
+   39  git log
+   40  git checkout 6f6e18d8abd5d2636cf475a339e5cd374884fa87
+   41  git log
+   42  vim f1.txt 
+   43  git master
+   44  git restore
+   45  git log
+   46  git master
+   47  git restore
+   48  git restore --help
+   49  git restore --source
+   50  git restore --source HEAD
+   51  git restore HEAD
+   52  git restore head
+   53  git master
+   54  git --hel
+   55  git --help
+   56  git restore f1.txt
+   57  vim f1.txt 
+   58* 
+   59  git master
+   60  git checkout master
+   61  git log
+   62  git reset --hard 6f6e18d8abd5d2636cf475a339e5cd374884fa87
+   63  git log
+   64  git checkout -b new-feature
+   65  git branch
+   66  git log
+   67  vim f2.txt
+   68  git add .
+   69  git commit -m "new file added"
+   70  git log
+   71  git checkout master
+   72  git log
+   73  git merge new-feature
+   74  git log
+   75  git branch -D new-feature
+   76  git checkout -b new-feature
+   77  git log
+   78  vim f1.txt 
+   79  git branch -D new-feature
+   80  git checkout master
+   81  git branch -D new-feature
+
